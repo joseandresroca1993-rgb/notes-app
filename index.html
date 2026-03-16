@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis Notas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="contenedor">
+    <h1>📝 Mis Notas</h1>
+    <input type="text" id="buscadorNotas" placeholder="🔎 Buscar nota...">
+    <textarea id="textoNota" placeholder="Escribe una nota... (Ctrl + Enter)"></textarea>
+    <select id="colorNota">
+      <option value="amarillo">Amarillo</option>
+      <option value="azul">Azul</option>
+      <option value="rosa">Rosa</option>
+      <option value="verde">Verde</option>
+    </select>
+
+    <button id="btnGuardar">Guardar nota</button>
+    
+    <div id="listaNotas"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
